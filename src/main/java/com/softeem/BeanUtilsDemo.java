@@ -3,8 +3,10 @@ package com.softeem;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 import org.apache.commons.beanutils.BeanUtils;
+import org.apache.commons.beanutils.PropertyUtils;
 
 public class BeanUtilsDemo {
 	public static void main(String[] args) throws Exception {
